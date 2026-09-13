@@ -1,0 +1,13 @@
+# Use this file if your Netlify site's "Base directory" is already set to
+# "frontend" (so Netlify reads config relative to this folder). If instead
+# you connected the repo root, use the netlify.toml at the repo root, which
+# sets base = "frontend" for you.
+
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

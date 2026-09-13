@@ -1,0 +1,18 @@
+-- NETRA-X demo data is generated programmatically (not as a static SQL dump)
+-- so that camera coordinates, trajectories, and confidence scores stay
+-- internally consistent (a trajectory's distance must match its points, etc).
+--
+-- To seed demo data, run the Python seeder instead of this file:
+--
+--   cd backend
+--   python -m app.services.seed_cli        # or: it runs automatically on first API startup
+--
+-- See backend/app/services/seed.py for the full generation logic:
+--   - 42 cameras across 10 roads (Airport Road, Ring Road, Central Corridor,
+--     Station Road, Industrial Area, University Road, Market Road,
+--     East Bypass, West Bypass, CBD)
+--   - 130 vehicles (6 fixed demo plates + 124 synthetic)
+--   - 500+ vehicle_observations
+--   - 20+ trajectories with trajectory_points
+--   - 12 alerts across ROUTE_ANOMALY / WATCHLIST / CONGESTION / CAMERA_HEALTH
+--   - a traffic_metrics snapshot per road

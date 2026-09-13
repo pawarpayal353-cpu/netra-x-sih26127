@@ -1,0 +1,23 @@
+# Render Blueprint for the NETRA-X backend.
+# In the Render dashboard: New -> Blueprint -> point at this repo.
+# Render reads this file automatically and provisions the service below.
+#
+# After it deploys, copy the service URL (e.g. https://netra-x-api.onrender.com)
+# and set it as VITE_API_BASE in your Netlify site's environment variables,
+# then trigger a Netlify redeploy (Vite inlines env vars at build time).
+
+services:
+  - type: web
+    name: netra-x-api
+    runtime: docker
+    dockerfilePath: ./backend/Dockerfile
+    dockerContext: ./backend
+    plan: free
+    envVars:
+      - key: DATABASE_URL
+        value: sqlite:///./netrax.db
+      - key: ALLOWED_ORIGINS
+        # Update this to your actual Netlify URL(s), comma-separated, e.g.:
+        # https://5127f7.netlify.app,https://your-custom-domain.com
+        value: "https://5127f7.netlify.app"
+    healthCheckPath: /health

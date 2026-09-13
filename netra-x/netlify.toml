@@ -1,0 +1,17 @@
+# Netlify site settings for this monorepo.
+# If you're connecting this repo directly in the Netlify UI instead of using
+# this file, set: Base directory = frontend, Build command = npm run build,
+# Publish directory = frontend/dist
+
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "frontend/dist"
+
+# SPA fallback: without this, Netlify 404s on any route other than "/"
+# (e.g. /alerts, /trajectory-explorer) because those paths don't exist as
+# real files — they only exist client-side via React Router.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
