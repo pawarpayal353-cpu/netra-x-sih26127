@@ -12,7 +12,7 @@ from app.api.routes import router as api_router
 
 load_dotenv()
 
-ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:3000").split(",")
+ALLOWED_ORIGINS = os.getenv("ALLOWED_ORIGINS", "http://localhost:5173,http://localhost:3000,https://netra-x-sih26127.netlify.app")
 
 
 @asynccontextmanager
