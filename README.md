@@ -50,13 +50,11 @@ This repository contains the main project inside `netra-x/` folder. Netlify URL 
 - **Deployment:** Netlify
 - **Live:** https://netra-x-sih26127.netlify.app
 
-### ⚙️ Run Locally
-```bash
-git clone https://github.com/pawarpayal353-cpu/netra-x-sih26127.git
-cd netra-x-sih26127/netra-x
-npm install
-npm start
-
+### Run Locally
+Clone: https://github.com/pawarpayal353-cpu/netra-x-sih26127.git
+Then: cd netra-x-sih26127/netra-x
+Then: npm install
+Then: npm start
 
 
 ---
