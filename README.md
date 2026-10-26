@@ -63,7 +63,7 @@ Then: npm start
 | Name | GitHub | Role |
 | :--- | :--- | :--- |
 | Payal Pawar | [pawarpayal353-cpu](https://github.com/pawarpayal353-cpu) | Team Lead |
-| aj9446435-code | [aj9446435-code](https://github.com/aj9446435-code) | Collaborator |
+| Asmita Jadhav | [aj9446435-code](https://github.com/aj9446435-code) | Collaborator |
 | Maithili Potdar | [mv075-png](https://github.com/mv075-png) | Collaborator |
 | Pranjal Bhosale | [pranjalbhosale892-oss](https://github.com/pranjalbhosale892-oss) | Collaborator |
 
