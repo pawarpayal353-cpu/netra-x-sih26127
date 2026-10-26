@@ -45,7 +45,6 @@
 
 This repository contains the main project inside `netra-x/` folder. Netlify URL is added to allowed origins.
 
-### 📂 Folder Structure
 
 ### 💻 Tech Stack
 - **Deployment:** Netlify
@@ -59,16 +58,26 @@ npm install
 npm start
 
 
-👥 Team NETRA-XNameGitHub ProfileRolePayal Pawarpawarpayal353-cpuTeam Leadaj9446435-codeaj9446435-codeCollaboratorMaithili Potdarmv075-pngCollaboratorPranjal Bhosalepranjalbhosale892-ossTeam Member<p align="left">
-  <a href="{{IE_0}}https://github.com/pawarpayal353-cpu/netra-x-sih26127/graphs/contributors{{/IE_0}}">
-    <img src="{{IE_1}}https://contrib.rocks/image?repo=pawarpayal353-cpu/netra-x-sih26127{{/IE_1}}" />
-  </a>
-</p>
 
-🔗 Quick LinksResourceLinkLive Websitenetra-x-sih26127.netlify.appDemo Videoyoutu.beGitHub Repogithub.com<p align="center">Built with ❤️ by Team NETRA-X for SIH 2025</p>
+---
+### 👥 Team NETRA-X
 
+| Name | GitHub | Role |
+| :--- | :--- | :--- |
+| Payal Pawar | [pawarpayal353-cpu](https://github.com/pawarpayal353-cpu) | Team Lead |
+| aj9446435-code | [aj9446435-code](https://github.com/aj9446435-code) | Collaborator |
+| Maithili Potdar | [mv075-png](https://github.com/mv075-png) | Collaborator |
+| Pranjal Bhosale | [pranjalbhosale892-oss](https://github.com/pranjalbhosale892-oss) | Member |
 
-This is final for **netra-x-sih26127** only. Paste it and you are done.
+---
+### 🔗 Quick Links
+
+- **Live Website:** https://netra-x-sih26127.netlify.app
+- **Demo Video:** https://youtu.be/INuE4WxD9IM?si=zueVmkZ5s9doOwuw
+- **GitHub Repo:** https://github.com/pawarpayal353-cpu/netra-x-sih26127
+
+---
+Built with ❤️ by Team NETRA-X for SIH 2025
 
 
 
